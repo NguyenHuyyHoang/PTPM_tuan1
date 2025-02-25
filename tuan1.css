@@ -1,0 +1,38 @@
+/* Định dạng toàn bộ trang */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Định dạng tiêu đề */
+h1 {
+    color: #333;
+}
+
+/* Định dạng bảng */
+table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+/* Định dạng ô tiêu đề */
+th {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+}
+
+/* Định dạng ô dữ liệu */
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Tô màu xen kẽ các dòng */
+tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
